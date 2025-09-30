@@ -34,7 +34,7 @@ export class Hero {
 
 
 const tony = new Person('Tony', 'Stark' , 'Nueva York');
-const ironman = new Hero('Ironman', 40, 'Tony', tony);
+ const ironman = new Hero('Ironman', 40, 'Tony', tony);
 
 
 console.table(ironman);

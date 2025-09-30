@@ -1,0 +1,25 @@
+{
+  "// Configuración para resaltar variables": "",
+  "editor.wordHighlightBackground": "#4ecdc440",
+  "editor.wordHighlightStrongBackground": "#ff6b6b40", 
+  "editor.selectionHighlightBackground": "#ffe66d40",
+  "editor.occurrencesHighlight": true,
+  "editor.selectionHighlight": true,
+  "workbench.colorCustomizations": {
+    "editor.wordHighlightBackground": "#4ecdc430",
+    "editor.wordHighlightBorder": "#4ecdc4",
+    "editor.wordHighlightStrongBackground": "#ff6b6b30",
+    "editor.wordHighlightStrongBorder": "#ff6b6b",
+    "editor.selectionHighlightBackground": "#ffe66d30",
+    "editor.selectionHighlightBorder": "#ffe66d"
+  },
+  "// Para Angular específicamente": "",
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "typescript.suggest.autoImports": true,
+  "// Colores para diferentes tipos de highlighting": "",
+  "editor.tokenColorCustomizations": {
+    "variables": "#e06c75",
+    "functions": "#61afef",
+    "keywords": "#c678dd"
+  }
+}
