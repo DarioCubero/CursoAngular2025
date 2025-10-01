@@ -1,0 +1,7 @@
+{
+  "editor.suggest.showIcons": true,
+  "workbench.editor.showIcons": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "errorLens.gutterIconsEnabled": false,
+  "errorLens.statusBarIconsEnabled": false
+}
