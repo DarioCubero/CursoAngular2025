@@ -15,10 +15,11 @@ export class HeroPageComponent {
     return description;
   });
 
-  capitalizedName = computed(() => this.name().toUpperCase());
+  capitalizedName = computed(() => this.name().toUpperCase() );
   // capitalizedName2 = computed(() => {
   //   return this.name().toUpperCase();
   // });
+
 
   getHeroDescription() {
     return `${this.name()} - ${this.age()}`;

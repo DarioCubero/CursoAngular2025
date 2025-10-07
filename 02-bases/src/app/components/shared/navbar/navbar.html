@@ -1,0 +1,33 @@
+<style>
+  nav {
+    background-color: #000000;
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: bold;
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+
+  nav a.active {
+    color: red;
+    text-decoration: underline;
+  }
+</style>
+
+<nav>
+  <a routerLink="/" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" >Contador</a>
+  <a [routerLink]="['/hero']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" >Hero</a>
+  <a [routerLink]="['/dragonball']" [routerLinkActive]="['active']" [routerLinkActiveOptions]="{ exact: true }" >Dragonball</a>
+  <!-- OTROS -->
+
+</nav>
